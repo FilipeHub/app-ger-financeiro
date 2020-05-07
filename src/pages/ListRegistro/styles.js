@@ -4,11 +4,6 @@ export const Container = styled.div`
     margin: 10px 20px;
 `;
     
-// export const NovoRegistro = styled.form`
-//     margin: 10px 20px;
-// `;
-    
-    
 export const RegistroList = styled.ul`
     margin: 20px 20px;
 `;

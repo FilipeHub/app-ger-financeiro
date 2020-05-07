@@ -35,37 +35,6 @@ export default function ListRegistro() {
 
   return (
       <Container>
-          {/* <h1>Novo Registro</h1>
-          <NovoRegistro onSubmit={handleSubmit}>
-            <label>Descrição</label>
-            <input
-                type="text"
-                placeholder="Digite um descrição"
-                onChange={event => setDescricao(event.target.value)}
-            />
-
-            <label>Tipo</label>
-            <input
-                type="select"
-                onChange={event => setTipo(event.target.value)}
-            />
-
-            <label>Password</label>
-            <input
-                type="password"
-                placeholder="Type your password..."
-                onChange={event => setPassword(event.target.value)}
-            />
-
-            <label>Confirm Password</label>
-            <input
-                type="password"
-                placeholder="Type your password again..."
-                onChange={event => setConfirmPassword(event.target.value)}
-            />
-
-            <button type="submit">CONFIRMAR</button>
-          </NovoRegistro> */}
           <h1>Registros</h1>
           <RegistroList>
             {registros.map(registro => (
